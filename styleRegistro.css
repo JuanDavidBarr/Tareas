@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat';
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.NavegacionContainer{
+    display: flex;
+    width: 100vw;
+}
+
+.LogoContainer{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Logo{
+    width: 25rem;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 70vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.Formulario{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.FormularioContainer1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.FormularioContainer2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+label{
+    width: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+input{
+    width: 50%;
+    height: 6%;
+    font-size: 1.5rem;
+}
+
+.botonGuardar{
+    position: absolute;
+    width: 25%;
+    top: 50rem;
+    left: auto;
+    right: auto;
+    font-size: 2rem;
+    font-weight: 200;
+    background-color: #5EF783;
+    border-radius: 4rem;
+    border: none;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textFooter{
+    font-size: 1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleRegistro.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+        <!--Panel de navegación-->
+        <nav class="NavegacionContainer">
+            <div class="LogoContainer">
+                <img class="Logo" src="./Imágenes/Logo.PNG" alt="Logo de la empresa">
+            </div>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="#">Registro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--Formularios-->
+        <section class="Formulario">
+            <form class="FormularioContainer1">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="email@example.com">
+                <label for="contraseña">Contraseña</label>
+                <input type="password" id="contraseña">
+                <input type="submit" value="Guardar" class="botonGuardar">
+            </form>
+            <form class="FormularioContainer2">
+                <label for="teléfono">Número de Teléfono</label>
+                <input type="text" id="teléfono">
+                <label for="dirección">Dirección</label>
+                <input type="text" id="dirección" placeholder="Ingrese su dirección especificando carreras, calles, torre, apartamento, etc.">
+                <label for="fechaNacimiento">Fecha de Nacimiento</label>
+                <input type="date" id="fechaNacimiento">
+                <label for="edad">Edad</label>
+                <input type="text" id="edad">
+            </form>
+    </main>
+    <footer>
+        <!--Logo con derechos-->
+        <div class="LogoFooterContainer">
+            <img src="./Imágenes/Logo.PNG" alt="Logo">
+        </div>
+        <div class="textContainer">
+            <h2 class="textFooter">© Copyright Rocks Rocks 2023</h2>
+        </div>
+    </footer>
+</body>
+</html>

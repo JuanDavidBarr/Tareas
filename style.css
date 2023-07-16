@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat';
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.NavegacionContainer{
+    display: flex;
+    width: 100vw;
+}
+
+.LogoContainer{
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+}
+
+.Logo{
+    width: 25rem;
+    height: auto;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    width: 70vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.ImagenContainer{
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    background-color: #5EF783;
+}
+
+.ImagenInicio{
+    height: 100%;
+    width: auto;
+}
+
+.InformaciónGeneral{
+    width:100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.TítuloInformaciónGeneral{
+    font-size: 3rem;
+    width: 70%;
+    position: relative;
+    left: 2rem;
+}
+
+.PárrafoInformaciónGeneral{
+    font-size: 2rem;
+    width: 80%;
+    position: relative;
+    left: 2rem;
+}
